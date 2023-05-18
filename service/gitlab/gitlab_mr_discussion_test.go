@@ -10,11 +10,11 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/dobesv/reviewdog"
+	"github.com/dobesv/reviewdog/filter"
+	"github.com/dobesv/reviewdog/proto/rdf"
+	"github.com/dobesv/reviewdog/service/commentutil"
 	"github.com/google/go-cmp/cmp"
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/proto/rdf"
-	"github.com/reviewdog/reviewdog/service/commentutil"
 	"github.com/xanzy/go-gitlab"
 )
 

@@ -7,10 +7,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/reviewdog/reviewdog/diff"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/parser"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/dobesv/reviewdog/diff"
+	"github.com/dobesv/reviewdog/filter"
+	"github.com/dobesv/reviewdog/parser"
+	"github.com/dobesv/reviewdog/proto/rdf"
 )
 
 // Reviewdog represents review dog application which parses result of compiler

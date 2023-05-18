@@ -12,9 +12,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/build/gerrit"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/dobesv/reviewdog"
+	"github.com/dobesv/reviewdog/filter"
+	"github.com/dobesv/reviewdog/proto/rdf"
 )
 
 func TestChangeReviewCommenter_Post_Flush(t *testing.T) {

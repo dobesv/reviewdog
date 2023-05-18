@@ -11,10 +11,10 @@ import (
 	"github.com/xanzy/go-gitlab"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/proto/rdf"
-	"github.com/reviewdog/reviewdog/service/commentutil"
-	"github.com/reviewdog/reviewdog/service/serviceutil"
+	"github.com/dobesv/reviewdog"
+	"github.com/dobesv/reviewdog/proto/rdf"
+	"github.com/dobesv/reviewdog/service/commentutil"
+	"github.com/dobesv/reviewdog/service/serviceutil"
 )
 
 const (
@@ -25,8 +25,9 @@ const (
 // MergeRequestDiscussionCommenter is a comment and diff service for GitLab MergeRequest.
 //
 // API:
-//  https://docs.gitlab.com/ee/api/discussions.html#create-new-merge-request-discussion
-//  POST /projects/:id/merge_requests/:merge_request_iid/discussions
+//
+//	https://docs.gitlab.com/ee/api/discussions.html#create-new-merge-request-discussion
+//	POST /projects/:id/merge_requests/:merge_request_iid/discussions
 type MergeRequestDiscussionCommenter struct {
 	cli      *gitlab.Client
 	pr       int

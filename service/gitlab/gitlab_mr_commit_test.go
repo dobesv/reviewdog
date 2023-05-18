@@ -11,10 +11,10 @@ import (
 	"github.com/kylelemons/godebug/pretty"
 	"github.com/xanzy/go-gitlab"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/proto/rdf"
-	"github.com/reviewdog/reviewdog/service/commentutil"
+	"github.com/dobesv/reviewdog"
+	"github.com/dobesv/reviewdog/filter"
+	"github.com/dobesv/reviewdog/proto/rdf"
+	"github.com/dobesv/reviewdog/service/commentutil"
 )
 
 func TestGitLabMergeRequestCommitCommenter_Post_Flush_review_api(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 
 	"github.com/xanzy/go-gitlab"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/service/serviceutil"
+	"github.com/dobesv/reviewdog"
+	"github.com/dobesv/reviewdog/service/serviceutil"
 )
 
 var _ reviewdog.DiffService = &MergeRequestDiff{}
