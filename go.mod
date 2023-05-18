@@ -1,4 +1,4 @@
-module github.com/reviewdog/reviewdog
+module github.com/dobesv/reviewdog
 
 go 1.19
 
